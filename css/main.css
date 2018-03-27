@@ -1,12 +1,54 @@
 /*自定义样式*/
 
 
-/*commonn css*/
+/*commonn css default font-size 100%.==>16px*/
 body{
 	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+	font-size: 100%;
 }
 
+/*font icon*/
+@font-face{
+	font-family: weijinsuo;
+	src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'),
+	url('../font/MiFie-Web-Font.svg') format('svg'),
+	url('../font/MiFie-Web-Font.ttf') format('truetype'),
+	url('../font/MiFie-Web-Font.woff') format('woff');
+}
+
+/* class*=" balabala" 空格一定要加上*/
+[class^="icon-"],[class*=" icon-"]{
+	font-family: weijinsuo;
+	font-style: normal;
+}
+
+.icon-mobilephone::before {
+  content: "\e908";
+  font-size: 13px;
+}
+
+.icon-telephone::before {
+  content: "\e909";
+  font-size: 15px;
+}
+
+.icon-logo::before {
+  content: "\e93e";
+}
+
+.icon-icon::before {
+  content: "\e920";
+}
+
+
+/*header*/
 #header{
 
 }
+
+#header .topbar{
+	line-height: 3rem ;
+	border-bottom: 1px solid #c0c0c0;
+}
+
 
