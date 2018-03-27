@@ -22,6 +22,7 @@ body{
 	font-style: normal;
 }
 
+/*标准伪元素使用双冒号*/
 .icon-mobilephone::before {
   content: "\e908";
   font-size: 13px;
@@ -47,8 +48,31 @@ body{
 }
 
 #header .topbar{
+	height: 3rem;
 	line-height: 3rem ;
 	border-bottom: 1px solid #c0c0c0;
+}
+
+#header .topbar .container .row div + div{
+	border-left: 1px solid #c0c0c0;
+}
+
+#header .mobile-link{
+	color: #888;
+}
+
+#header .mobile-link:hover{
+	text-decoration: none;
+}
+#header img{
+	display: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	top:25px;
+}
+#header .mobile-link:hover img{
+	display: block;
 }
 
 
