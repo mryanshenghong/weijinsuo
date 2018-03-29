@@ -103,15 +103,12 @@ body{
 .navbar-weijinsuo{
 	margin-top: 1rem;
 	height: 5rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0px;
 }
 
 @media (max-width: 768px) {
 	.navbar-weijinsuo{
 	height: auto;
-	}
-	.nav li a{
-		line-height: 48px;
 	}
 }
 
