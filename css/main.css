@@ -103,12 +103,46 @@ body{
 .navbar-weijinsuo{
 	margin-top: 1rem;
 	height: 5rem;
-	margin-bottom: 0;
+	margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+	.navbar-weijinsuo{
+	height: auto;
+	}
+	.nav li a{
+		line-height: 48px;
+	}
 }
 
 .nav li a {
 	font-size: 1.5rem;
 }
+
+/*main_ad*/
+#main_ad{
+
+}
+
+#main_ad  .carousel-inner  .item{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/*media query 当最大宽度至少为768时候 height才有 410px 否则高度自适应图片*/
+@media (min-width: 768px) {
+	#main_ad  .carousel-inner  .item{
+	height: 410px;
+	}
+}
+
+
+#main_ad > .carousel-inner > .item > img{
+	width: 100%;
+}
+
+
 
 
 
