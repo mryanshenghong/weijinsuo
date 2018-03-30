@@ -1,152 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<!-- 文档渲染模式 IE最新引擎  -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- 声明网页在移动浏览器的设置 -->
-	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta charset="UTF-8">
+    <!-- 文档渲染模式 IE最新引擎  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 声明网页在移动浏览器的设置 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>微金所</title>
-	<link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="./css/main.css">
-	<!-- 识别h5新标签 -->
-	<!-- 低版本浏览器能兼容响应式 css3的媒体查询 -->
-	<!-- [if lt IE 9]>
+    <title>微金所</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- 识别h5新标签 -->
+    <!-- 低版本浏览器能兼容响应式 css3的媒体查询 -->
+    <!-- [if lt IE 9]>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 	<div>浏览器版本低请更新浏览器</div>
 	<![endif]  -->
 </head>
+
 <body>
-	<!-- header start -->
-	<header id="header">
-		<div class="topbar hidden-sm hidden-xs">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2 text-center">
-						<a href="" class="mobile-link">
+    <!-- header start -->
+    <header id="header">
+        <div class="topbar hidden-sm hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <a href="" class="mobile-link">
 							<i class="icon-mobilephone"></i>
 							<span>手机微金所</span>
 							<i class="glyphicon glyphicon-chevron-down"></i>
 							<img src="./img/app.jpg" alt="二维码">
 						</a>
-					</div>
-					<div class="col-md-5 text-center">
-						<i class="icon-telephone"></i>
-						<span>400-89-4000(服务时间: 9:00-21:00)</span>
-					</div>
-					<div class="col-md-2 text-center">
-						<a href="" class="link">常见问题</a>
-						<a href="" class="link">财富登录</a>
-					</div>
-					<div class="col-md-3 text-center">
-						<a href="#" class="btn btn-danger btn-sm">免费注册</a>
-						<a href="" class="btn btn-link btn-sm link">登录</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<nav class="navbar navbar-weijinsuo navbar-static-top">
-			<div class="container">
-				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#weijinsuonav">
-					 	<span class="sr-only">Screen Reader -- 显示菜单</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="" class="navbar-brand">
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <i class="icon-telephone"></i>
+                        <span>400-89-4000(服务时间: 9:00-21:00)</span>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <a href="" class="link">常见问题</a>
+                        <a href="" class="link">财富登录</a>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <a href="#" class="btn btn-danger btn-sm">免费注册</a>
+                        <a href="" class="btn btn-link btn-sm link">登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-weijinsuo navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#weijinsuonav">
+                        <span class="sr-only">Screen Reader -- 显示菜单</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="" class="navbar-brand">
 						<i class="icon-icon"></i>
 						<i class="icon-logo"></i>
 					</a>
-				</div>
-				<div class="collapse navbar-collapse" id="weijinsuonav">
-				<ul class="nav navbar-nav">
-					<li><a href="#">我要投资</a></li>
-					<li><a href="#">我要借款</a></li>
-					<li><a href="#">平台介绍</a></li>
-					<li><a href="#">新手专区</a></li>
-					<li><a href="#">最新动态</a></li>
-					<li><a href="#">微论坛</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right hidden-sm">
-					<li><a href="">个人中心</a></li>
-				</ul>
-				</div>	
-			</div>
-		</nav>
-	</header>
-	<!-- header end -->
-
-	<!-- carousel start -->
-	<section id="main_ad" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#main_ad" data-slide-to="0" class="active"></li>
-		    <li data-target="#main_ad" data-slide-to="1"></li>
-		    <li data-target="#main_ad" data-slide-to="2"></li>
-		    <li data-target="#main_ad" data-slide-to="3"></li>
-		  </ol>
-
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner" role="listbox">
-		    <div class="item active" data-image-lg="./img/slide_01_2000x410.jpg" data-image-xs="img/slide_01_640x340.jpg">
-		      <div class="carousel-caption">
-		        <!-- 标题 红包来了 -->
-		      </div>
-		    </div>
-		    <div class="item" data-image-lg="img/slide_02_2000x410.jpg" data-image-xs="img/slide_02_640x340.jpg" >
-		      <div class="carousel-caption">
-		        <!--标题 梦想 -->
-		      </div>
-		    </div>
-		    <div class="item" data-image-lg="img/slide_03_2000x410.jpg" data-image-xs="img/slide_03_640x340.jpg" >
-		      <div class="carousel-caption">
-		        <!--标题 梦想 -->
-		      </div>
-		    </div>
-		    <div class="item" data-image-lg="img/slide_04_2000x410.jpg" data-image-xs="img/slide_04_640x340.jpg">
-		      <div class="carousel-caption"> 
-		        <!--标题 梦想 -->
-		      </div>
-		    </div>	    
-		  </div>
-
-		  <!-- Controls -->
-		  <a class="left carousel-control" href="#main_ad" role="button" data-slide="prev">
+                </div>
+                <div class="collapse navbar-collapse" id="weijinsuonav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">我要投资</a></li>
+                        <li><a href="#">我要借款</a></li>
+                        <li><a href="#">平台介绍</a></li>
+                        <li><a href="#">新手专区</a></li>
+                        <li><a href="#">最新动态</a></li>
+                        <li><a href="#">微论坛</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right hidden-sm">
+                        <li><a href="">个人中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+    <!-- carousel start -->
+    <section id="main_ad" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#main_ad" data-slide-to="0" class="active"></li>
+            <li data-target="#main_ad" data-slide-to="1"></li>
+            <li data-target="#main_ad" data-slide-to="2"></li>
+            <li data-target="#main_ad" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" data-image-lg="./img/slide_01_2000x410.jpg" data-image-xs="img/slide_01_640x340.jpg">
+                <div class="carousel-caption">
+                    <!-- 标题 红包来了 -->
+                </div>
+            </div>
+            <div class="item" data-image-lg="img/slide_02_2000x410.jpg" data-image-xs="img/slide_02_640x340.jpg">
+                <div class="carousel-caption">
+                    <!--标题 梦想 -->
+                </div>
+            </div>
+            <div class="item" data-image-lg="img/slide_03_2000x410.jpg" data-image-xs="img/slide_03_640x340.jpg">
+                <div class="carousel-caption">
+                    <!--标题 梦想 -->
+                </div>
+            </div>
+            <div class="item" data-image-lg="img/slide_04_2000x410.jpg" data-image-xs="img/slide_04_640x340.jpg">
+                <div class="carousel-caption">
+                    <!--标题 梦想 -->
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#main_ad" role="button" data-slide="prev">
 		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		    <span class="sr-only">Previous</span>
 		  </a>
-		  <a class="right carousel-control" href="#main_ad" role="button" data-slide="next">
+        <a class="right carousel-control" href="#main_ad" role="button" data-slide="next">
 		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		    <span class="sr-only">Next</span>
 		  </a>
-		
-	</section>
-	<!-- carousel end -->
-
-	<!-- section start -->
-	<section></section>
-	<!-- section end -->
-
-	<!-- section start -->
-	<section></section>
-	<!-- section end -->
-
-	<!-- section start -->
-	<section></section>
-	<!-- section end -->
-
-	<!-- section start -->
-	<section></section>
-	<!-- section end -->
-
-	<!-- section start -->
-	<section></section>
-	<!-- section end -->
-	<script src="./lib/jquery/jquery.js"></script>
-	<script src="./lib/bootstrap/js/bootstrap.js"></script>
-	<script src="./js/main.js"></script>
+    </section>
+    <!-- carousel end -->
+    <!-- characteristic start -->
+    <section id="characteristic">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 hidden-xs">
+                    <a href="#">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="icon-uniE907"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保证</h4> 银联支付全程保障资金安全
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 hidden-xs">
+                    <a href="#">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="icon-uniE907"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保证</h4> 银联支付全程保障资金安全
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 hidden-xs">
+                    <a href="#">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="icon-uniE907"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保证</h4> 银联支付全程保障资金安全
+                            </div>
+                        </div>
+                    </a>      
+                </div>
+                <div class="col-md-4 col-sm-6 hidden-xs">
+                    <a href="#">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="icon-uniE907"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保证</h4> 银联支付全程保障资金安全
+                            </div>
+                        </div>
+                    </a>                	
+                </div>
+                <div class="col-md-4 col-sm-6 hidden-xs">
+                    <a href="#">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="icon-uniE907"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保证</h4> 银联支付全程保障资金安全
+                            </div>
+                        </div>
+                    </a>                	
+                </div>
+                <div class="col-md-4 col-sm-6 hidden-xs">
+                    <a href="#">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="icon-uniE907"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">支付交易保证</h4> 银联支付全程保障资金安全
+                            </div>
+                        </div>
+                    </a>                	
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- characteristic end -->
+    <!-- section start -->
+    <section></section>
+    <!-- section end -->
+    <!-- section start -->
+    <section></section>
+    <!-- section end -->
+    <!-- section start -->
+    <section></section>
+    <!-- section end -->
+    <!-- section start -->
+    <section></section>
+    <!-- section end -->
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>

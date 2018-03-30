@@ -2,144 +2,185 @@
 
 
 /*commonn css default font-size 100%.==>16px*/
-body{
-	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
-	font-size: 100%;
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    font-size: 100%;
 }
+
 
 /*font icon*/
-@font-face{
-	font-family: weijinsuo;
-	src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'),
-	url('../font/MiFie-Web-Font.svg') format('svg'),
-	url('../font/MiFie-Web-Font.ttf') format('truetype'),
-	url('../font/MiFie-Web-Font.woff') format('woff');
+
+@font-face {
+    font-family: weijinsuo;
+    src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'),
+    url('../font/MiFie-Web-Font.svg') format('svg'),
+    url('../font/MiFie-Web-Font.ttf') format('truetype'),
+    url('../font/MiFie-Web-Font.woff') format('woff');
 }
+
 
 /* class*=" balabala" 空格一定要加上*/
-[class^="icon-"],[class*=" icon-"]{
-	font-family: weijinsuo;
-	font-style: normal;
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: weijinsuo;
+    font-style: normal;
 }
 
+
 /*标准伪元素使用双冒号*/
+
 .icon-mobilephone::before {
-  content: "\e908";
-  font-size: 13px;
+    content: "\e908";
+    font-size: 13px;
 }
 
 .icon-telephone::before {
-  content: "\e909";
-  font-size: 15px;
+    content: "\e909";
+    font-size: 15px;
 }
 
 .icon-logo::before {
-  content: "\e93e";
+    content: "\e93e";
 }
 
 .icon-icon::before {
-  content: "\e920";
+    content: "\e920";
 }
+
+/*characteristic icon*/
+.icon-uniE907:before {
+  content: "\e907";
+}
+
 
 
 /*header*/
-#header{
 
-}
+#header {}
 
-#header  .topbar{
-	height: 3.5rem;
-	line-height: 3.5rem;
-	color: #888;
-	border-bottom: 1px solid #c0c0c0;
-}
-
-#header  .topbar  .container  .row  div {
-  height: 3.5rem;
-  font-size: 1rem;
-  color: #888;
+#header .topbar {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    color: #888;
+    border-bottom: 1px solid #c0c0c0;
 }
 
-#header .topbar .container .row div + div{
-	border-left: 1px solid #c0c0c0; 
+#header .topbar .container .row div {
+    height: 3.5rem;
+    font-size: 1rem;
+    color: #888;
 }
 
-#header .mobile-link{
-	color: #888;
+#header .topbar .container .row div+div {
+    border-left: 1px solid #c0c0c0;
 }
 
-#header .mobile-link:hover{
-	text-decoration: none;
-}
-#header img{
-	display: none;
-	position: absolute;
-	left: 50%;
-	margin-left: -60px;
-	top:25px;
-	z-index: 1001;
-}
-#header .mobile-link:hover >img{
-	display: block;
+#header .mobile-link {
+    color: #888;
 }
 
-#header .link{
-	color: #888;
+#header .mobile-link:hover {
+    text-decoration: none;
 }
 
-#header .link:hover{
-	text-decoration: none;
+#header img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 25px;
+    z-index: 1001;
 }
 
-#header .icon-icon{
-	font-size: 4rem;
-	color: #E92322;	
+#header .mobile-link:hover>img {
+    display: block;
 }
-#header .icon-logo{
-	font-size: 4rem;
-	color: #333333;
+
+#header .link {
+    color: #888;
 }
+
+#header .link:hover {
+    text-decoration: none;
+}
+
+#header .icon-icon {
+    font-size: 4rem;
+    color: #E92322;
+}
+
+#header .icon-logo {
+    font-size: 4rem;
+    color: #333333;
+}
+
+
 /*nav*/
-.navbar-weijinsuo{
-	margin-top: 1rem;
-	height: 5rem;
-	margin-bottom: 0px;
+
+.navbar-weijinsuo {
+    margin-top: 1rem;
+    height: 5rem;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 768px) {
-	.navbar-weijinsuo{
-	height: auto;
-	}
+    .navbar-weijinsuo {
+        height: auto;
+    }
 }
 
 .nav li a {
-	font-size: 1.5rem;
+    font-size: 1.5rem;
 }
+
 
 /*main_ad*/
-#main_ad{
 
+#main_ad {}
+
+#main_ad .carousel-inner .item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
-#main_ad  .carousel-inner  .item{
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
 
 /*media query 当最大宽度至少为768时候 height才有 410px 否则高度自适应图片*/
+
 @media (min-width: 768px) {
-	#main_ad  .carousel-inner  .item{
-	height: 410px;
-	}
+    #main_ad .carousel-inner .item {
+        height: 410px;
+    }
 }
 
 
-#main_ad > .carousel-inner > .item > img{
-	width: 100%;
+#main_ad>.carousel-inner>.item>img {
+    width: 100%;
 }
 
 
+/*characteristic 网站特色模块*/
+#characteristic{
+	font-size: 1.47rem;
+	padding: 6rem 0;
+	border-bottom:1px solid #c0c0c0;
+}
 
+#characteristic i{
+	  font-size: 3.3rem;
+}
 
+#characteristic .container .row a{
+	font-weight: 400;
+	color:  #777;
+}
 
+#characteristic .container .row a:hover{
+	color:  #E92322;
+	text-decoration: none;
+}
+#characteristic .container .row div{
+	margin-bottom: 1.7rem;
+}
