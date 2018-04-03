@@ -54,6 +54,15 @@ body {
   content: "\e907";
 }
 
+/*reservation*/
+.icon-uniE906:before {
+  content: "\e906";
+}
+
+.icon-uniE905:before {
+  content: "\e905";
+}
+
 
 
 /*header*/
@@ -182,5 +191,32 @@ body {
 	text-decoration: none;
 }
 #characteristic .container .row div{
-	margin-bottom: 1.7rem;
+	margin-top:0.85rem;
+	margin-bottom: 0.85rem;
 }
+
+/*reservation*/
+#reservation{
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#reservation .container  p,
+#reservation .container  span
+{
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	margin: 0 auto;
+	padding:0.5rem 0;
+}
+
+#reservation  span,
+#reservation  a{
+	color:#E91322;
+	text-decoration: none;
+}
+
+#reservation .container .pull-left a{
+	border-bottom: 1px dashed #e92322;
+}
+
+
