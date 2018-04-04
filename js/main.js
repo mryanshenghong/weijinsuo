@@ -26,7 +26,9 @@ $(function(){
 
 		});
 	}
-
+	$('[data-toggle="tooltip"]').tooltip();
 	
 	$(window).on('resize',resize).trigger('resize');
+
+
 });

@@ -219,4 +219,155 @@ body {
 	border-bottom: 1px dashed #e92322;
 }
 
+/*product*/
+#product{
+	background-color: #f0f0f0;
+	padding: 2rem 0;
+}
+
+#product .container .nav-tabs{
+	padding-left: 20px;
+}
+#product .container .nav-tabs ul{
+	
+}
+
+#product .container .nav-tabs li{
+	
+}
+#product .container .nav-tabs li.active{
+	
+}
+#product .container .nav-tabs li.active a{
+	background-color: transparent;
+	border-color: transparent;;
+	border-bottom: 4px solid #e92322;
+}
+
+#product .container .nav-tabs a{
+	font-size: 1.5rem;
+	color: #333;
+} 
+
+#product .container .nav-tabs li a:hover{
+	text-decoration: none;
+}
+
+#product .container .tab-content{
+	padding: 0.5rem 0;
+} 
+
+#product .container .panel{
+	border:none;
+	border-radius: 0;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+#product .container .panel.actived{
+	color: #fff;
+	background-color: #e92322;
+}
+
+#product .container .panel.actived::before{
+	content: '\e915';
+	font-family: weijinsuo;
+	font-size: 4rem;
+	position: absolute;
+	top: -0.85rem;
+	left: 1.3rem;
+}
+
+#product .container .panel.disabled{
+	background-color: #ddd;
+}
+
+
+#product .container .panel-heading{
+	width: 7rem;
+	float: right;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	height: 10rem;
+	border-left: 1px dashed #c0c0c0;
+	text-align: center;
+	position: relative;
+}
+
+#product .container .panel-heading .heading-content{
+	padding-top: 3.6rem;
+}
+
+#product .container .panel-heading .heading-content .tooltips{
+	position: absolute;
+	width: 100%;
+	top: 2rem;
+}
+
+#product .container .panel-heading .heading-content .tooltips .badge{
+	display: inline-block;
+	padding: 0;
+	line-height: 1.5;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+#product .container .panel-heading .heading-content .tooltips .badge-one{
+	color: #e92322;
+	border-color: #e92322;
+}
+
+#product .panel-default  .panel-heading .badge-two{
+	color: #399;
+	border-color: #399;
+}
+
+#product .container .panel-heading strong{
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
+#product .container .row {
+	margin-right:0;
+}
+
+/*面板上下的半圆设定 使用为元素 before after 设定*/
+#product .container .panel-heading::before{
+	content: ' ';
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #f0f0f0;
+	position: absolute;
+	top:-8px;
+	left:-8px;
+}
+
+
+#product .container .panel-heading::after{
+	content: ' ';
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #f0f0f0;
+	position: absolute;
+	bottom: -21px;
+	left:-8px;
+	box-shadow: 0 3px 1px #ccc inset;
+}
+
+#product .container .panel-body{
+	margin-right:  7rem;
+	/*text-align: center;*/
+	padding: 1rem 1rem;
+}
+
+#product .container .tab-content p{
+	margin: 0;
+	padding: 0;
+}
 
